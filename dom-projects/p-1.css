@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 550px;
+    height: auto;
+    max-width: 90%;
+    margin: 20px;
+}
+
+.header {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 1px solid white;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.main-content {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.791);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-area {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    
+}
+
+.person {
+    font-size: 1.2rem;
+    color: #ac0505;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.button-area button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-area button:hover {
+    background-color: #555;
+}
+.button-area button:active {
+    background-color: #99b8de;
+}
